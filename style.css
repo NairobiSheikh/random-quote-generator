@@ -1,43 +1,30 @@
 body {
     background-color: #52616b;
-    min-height: 100vh;
+    margin: 0;
     text-align: center;
-    padding: 100px;
+    padding: 0px;
 }
 .container {
     background-color: #c9d6df;
-    width: 700px;
-    height: 700px;
     position: absolute;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    margin: auto;
+    width: 50%;
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
 }
-.quote-text {
-    min-height: 20vh;
-}
-.container h1 {
-    font-size: 50px;
-    text-align: left;
-}
-.container p {
-    font-size: 50px;
-    text-transform: capitalize;
-    color: #ced0ce;
-    text-align: right;
-    font-style: italic;
-    font-size: 30px;
+#author{
+    font-size: 2em;
+    font-weight: bolder;
+
 }
 #btn {
-    margin-top: 30px;
-    font-size: 25px;
     padding: 10px;
-    background-color: #fff;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: .25rem;
     font-size: 18px;
-    text-transform: uppercase;
-    cursor: pointer;
 }
