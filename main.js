@@ -56,9 +56,9 @@ const quote = document.querySelector('#quote');
 const author = document.querySelector('#author');
 
 //setting up eventListener
-btn.addEventListener('click', 
-function() {
+btn.addEventListener('click', function() {
     let num = Math.floor(Math.random() * quotes.length);
     quote.innerHTML = '<span>"</span>' + quotes[num].quote + '<span>"</span>';
     author.innerHTML = '<span>--</span>' + quotes[num].author;
-});
+
+})
